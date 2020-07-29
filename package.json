@@ -6,13 +6,15 @@
   "scripts": {
     "start": "node -r esm a.js",
     "eslint": "eslint a.js",
-    "tsc-c": "tsc a.ts --newline lf -t es6"
+    "tsc": "tsc",
+    "js-beautify": "js-beautify --end-with-newline  -s 2 -o a.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "eslint-plugin-react-hooks": "^4.0.7",
     "esm": "^3.2.25",
+    "js-beautify": "^1.11.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -26,6 +28,6 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "7.20.3",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.7"
   }
 }
