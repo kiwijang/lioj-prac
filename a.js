@@ -9,6 +9,7 @@ const lines = [];
 rl.on('line', (line) => {
   lines.push(line);
 });
+
 function solve(inputlines) {
   for (let i = 0; i < inputlines.length; i += 1) {
     const numArr = inputlines[i].split(' ');

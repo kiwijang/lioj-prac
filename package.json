@@ -7,7 +7,7 @@
     "start": "node -r esm a.js",
     "eslint": "eslint a.js",
     "tsc": "tsc",
-    "js-beautify": "js-beautify --end-with-newline  -s 2 -o a.js"
+    "js-beautify": "js-beautify --end-with-newline -s 2 -o a.js"
   },
   "author": "",
   "license": "ISC",
